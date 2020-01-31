@@ -1,15 +1,8 @@
 @media (min-width: 1365px) and (max-width: 1441px) {
-  .hub-is-home header#hub-header #header-top #header-logo {
-  	margin: 0 15px 0 114px;
-  }
-  .hub-is-home header#hub-header #header-top .clearfix nav {
-    margin-right: 114px;
-  }
-  .hub-is-home #hub-landing-top.hub-landing-search,
-  .artigos>div {
+  .hub-is-home #hub-landing-top.hub-landing-search {
   	padding: 0 114px;
   }
   .hub-is-home .hub-container {
-  	max-width: calc(1366px - 228px);
+  	max-width: 1138px;
   }
 }
