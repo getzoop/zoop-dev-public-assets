@@ -5,6 +5,14 @@
 }
 
 @media screen and (max-width: 768px) {
+    .hub-is-home #hub-landing-top.hub-landing-search {
+        padding: 0;
+    }
+  
+    .hub-is-home header#hub-header #header-top #header-logo {
+        margin: 0 15px 0 30px;
+    }
+  
     header {
         height: 10px;
     }
@@ -113,9 +121,14 @@
         font-weight: 300;
         
         border: 1px solid rgba(127, 127, 127, 0.35);
-        border-radius: 26px;
+        border-radius: 18px;
         box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
     }
+  
+    .hub-is-home #hub-landing-top .search-bar {
+        padding: 0 30px;
+    }
+  
     .resultados-container form>button {
         left: 40px;
         top: -29px;
