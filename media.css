@@ -88,9 +88,9 @@
         padding: 40px 0;
     }
     .hub-is-home #hub-landing-top h2 {
-        width: 300px;
+        width: 370px;
 
-        font: normal 34px/41px Roboto, sans-serif;
+        font: 300 30px/37px Roboto, sans-serif;
     }
     .hub-is-home #hub-landing-top .hub-landing-description p,
     .inicio-content>a {
@@ -104,6 +104,10 @@
     .inicio-content>a {
         margin-top: 20px;
         margin-bottom: 50px;
+    }
+    .resultados {
+        bottom: 0;
+        height: auto;
     }
     .resultados-content {
         flex-direction: column;
@@ -145,8 +149,9 @@
     }
     .documentos-container {
         flex-direction: column;
+        align-items: center;
         height: auto;
-        padding: 60px 0 70px;
+        padding: 0 0 70px;
         
         text-align: center;
     }
@@ -241,7 +246,7 @@
     .artigos>div>ul>li {
         width: 100%;
         height: 34px;
-        padding-top: 6px;
+        padding-top: 0;
      
         border-bottom: 1px solid rgba(127, 127, 127, .5);
     }
