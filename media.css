@@ -106,7 +106,7 @@
         margin-bottom: 50px;
     }
     .resultados {
-        bottom: 0;
+        padding-top: 40px;
         height: auto;
     }
     .resultados-content {
