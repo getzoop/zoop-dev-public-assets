@@ -1,3 +1,14 @@
+@media (min-width: 1365px) and (max-width: 1441px) {
+    .hub-is-home header#hub-header #header-top .clearfix,
+    .hub-is-home #hub-landing-top,
+    .resultados-content,
+    .documentos-container,
+    .integracao-content,
+    .artigos {
+        max-width: 1238px;‬
+    }
+}
+
 @media screen and (max-width: 768px) {
     .hub-is-home #hub-landing-top.hub-landing-search {
         padding: 0;
