@@ -18,10 +18,10 @@
         margin: 0 15px 0 30px;
     }
   
-    header {
+    .hub-is-home header {
         height: 10px;
     }
-    .menu-mobile {
+    .hub-is-home .menu-mobile {
         position: relative;
         bottom: 5px;
 
@@ -37,7 +37,7 @@
     .menu-mobile:focus {
         outline: none;
     }
-    nav {
+    .hub-is-home nav {
         position: fixed;
         z-index: 99;
         
@@ -50,7 +50,7 @@
         background-color: #fff;
         border-bottom: 1px solid #F19512;
     }
-    #header-nav-left {
+    .hub-is-home #header-nav-left {
         position: absolute;
         width: 167px;
         height: 40px;
@@ -58,7 +58,7 @@
 
         background: url(https://files.readme.io/3fc461a-small-logo-desktop.png) no-repeat; 
     }
-    #header-nav-right {
+    .hub-is-home #header-nav-right {
         display: flex;
         align-items: center;
 
@@ -68,33 +68,33 @@
         
         background-color: rgba(239,239,239,.5);
     }
-    #header-nav-right > li:first-of-type {
+    .hub-is-home #header-nav-right > li:first-of-type {
         width: 100px;
     }
-    #header-nav-right > li:nth-child(2) {
+    .hub-is-home #header-nav-right > li:nth-child(2) {
         width: 80px;
     }
-    #header-nav-right > li:nth-child(3) {
+    .hub-is-home #header-nav-right > li:nth-child(3) {
         width: 50px;
     }
-    #header-nav-right > li:last-child {
+    .hub-is-home #header-nav-right > li:last-child {
         width: 60px;
     }
-    header#hub-header #header-top #header-nav-right li {
+    .hub-is-home header#hub-header #header-top #header-nav-right li {
         margin: 0 auto;
         padding: 0 2px;
         
         text-align: center;
         line-height: 20px;
     }
-    header#hub-header #header-top #header-nav-right li a {
+    .hub-is-home header#hub-header #header-top #header-nav-right li a {
         height: auto;
         line-height: 18px;
         margin: 0;
         padding: 0;
         text-align: center;
     }
-    .logo-img {
+    .hub-is-home .logo-img {
         bottom: 2px;
 
         width: 250px;
@@ -102,10 +102,10 @@
 
         background: url(../imgs/logo-mobile.png) no-repeat;
     }
-    .menu-desktop {
+    .hub-is-home .menu-desktop {
         display: none;
     }
-    .menu-desktop.active {
+    .hub-is-home .menu-desktop.active {
         position: absolute;
 
         display: flex;
@@ -113,23 +113,23 @@
         width: 100%;
         margin-top: 44px;
     }
-    .menu-desktop.active>ul {
+    .hub-is-home .menu-desktop.active>ul {
         flex-direction: column;
         width: 100%;
         margin-bottom: 0;
         
         background-color: #fff;
     }
-    .menu-desktop.active>ul li {
+    .hub-is-home .menu-desktop.active>ul li {
         margin: 0;
         padding: 20px 30px;
         
         border-bottom: 1px solid #F19512;
     }
-    .menu-desktop.active>ul li a {
+    .hub-is-home .menu-desktop.active>ul li a {
         font: bold 14px Roboto, sans-serif;
     }
-    .inicio-content {
+    .hub-is-home .inicio-content {
         height: auto;
         margin-top: 59px;
         padding: 40px 0;
@@ -141,7 +141,7 @@
         font: 300 30px/37px Roboto, sans-serif;
     }
     .hub-is-home #hub-landing-top .hub-landing-description p,
-    .inicio-content>a {
+    .hub-is-home .inicio-content>a {
         width: 300px;
         margin-bottom: 1em;
         padding: 0;
@@ -149,22 +149,22 @@
         font: 300 16px/24px Roboto, sans-serif;
         text-align: center;
     }
-    .inicio-content>a {
+    .hub-is-home .inicio-content>a {
         margin-top: 20px;
         margin-bottom: 50px;
     }
-    .resultados {
+    .hub-is-home .resultados {
         padding-top: 40px;
         height: auto;
     }
-    .resultados-content {
+    .hub-is-home .resultados-content {
         flex-direction: column;
         padding: 40px 0 60px;
     }
-    .resultados-content ul:not(:last-child) {
+    .hub-is-home .resultados-content ul:not(:last-child) {
         margin-bottom: 70px;
     }
-    .resultados-content ul li:first-child {
+    .hub-is-home .resultados-content ul li:first-child {
         color: #F19512;
         font-size: 34px;
         line-height: 25px;
