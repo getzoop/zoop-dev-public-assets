@@ -10,6 +10,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    html.csspositionsticky #hub-container>.hub-container>#hub-content {
+        max-width: 100%;
+    }
+    
     .hub-is-home #hub-landing-top.hub-landing-search {
         padding: 0;
     }
